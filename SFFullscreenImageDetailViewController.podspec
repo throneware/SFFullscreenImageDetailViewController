@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'SFFullscreenImageDetailViewController'
+  s.name             = 'SFFullscreenImageDetail'
   s.version          = '0.1.1'
   s.summary          = 'An interactive full screen image presentation view controller.'
 
@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 An UIViewController which presents a given image view in full screen and allows for fully dynamic and interactive behaviour. Both presentation and dismissal are animated and dismissal is fully interactive. User can also zoom the photo.
                        DESC
 
-  s.homepage         = 'https://github.com/JanHalozan/SFFullscreenImageDetailViewController'
+  s.homepage         = 'https://github.com/JanHalozan/SFFullscreenImageDetail'
   s.screenshots      = 'https://camo.githubusercontent.com/44534e658201734106fbaf2dd7bbdb93ed018fa1/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3236746e68514764727a4c734d4f526b412f67697068792e676966'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jan Haložan' => 'j.halozan.services@gmail.com' }
@@ -19,7 +19,7 @@ An UIViewController which presents a given image view in full screen and allows 
   s.source_files = 'SFFullscreenImageDetailViewController'
 
   s.resource_bundles = {
-    'SFFullscreenImageDetailViewController' => ['SFFullscreenImageDetailViewController/Assets/*.png']
+    'SFFullscreenImageDetail' => ['SFFullscreenImageDetailViewController/Assets/*.png']
   }
 
   s.requires_arc = true
